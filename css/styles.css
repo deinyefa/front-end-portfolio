@@ -1,7 +1,3 @@
-/** {
-  border: 1px solid #B8FDFF;
-}*/
-
 .title {
   text-align: right;
 }
@@ -10,6 +6,11 @@
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   color: #4C4C4C;
+}
+
+.logo img {
+  width: 15%;
+  padding-left: inherit;
 }
 
 .featured-work-label h3 {
@@ -26,6 +27,12 @@
   text-decoration: none;
   color: #4C4C4C;
   font-family: 'Lato', sans-serif;
+}
+
+.projects img {
+  display: block;
+  margin: auto;
+  width: 70%;
 }
 
 .footer {
