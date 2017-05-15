@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300i,400i|Poiret+One" rel="stylesheet">
-    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery-3.2.1.min.js" defer></script>
+    <script src="bootstrap/js/bootstrap.min.js" defer></script>
     <title>My Portfolio</title>
   </head>
   <body>
@@ -17,15 +16,17 @@
     <div class="container">
       <header class="row header">
         <div class="col-md-6 logo">
-          <img src="img/logo.svg" alt="My Logo" class="img-responsive">
+          <img src="img/logo.svg" alt="My Logo" class="img-responsive logo-image">
         </div>
         <div class="col-md-6 title">
-          <h1>Deinyefa Eporwei</h1>
-          <h4>Front-end Ninja</h4>
+          <h1 class="font-properties sm-screen-align">Deinyefa Eporwei</h1>
+          <h4 class="font-properties sm-screen-align">Front-end Ninja</h4>
         </div>
       </header>
-      <div class="horizontal-rule">
-        <hr>
+      <div class="row">
+        <div class="col-md-12 horizontal-rule">
+          <hr>
+        </div>
       </div>
       <section class="row main-image">
         <div class="col-md-12">
@@ -33,31 +34,35 @@
         </div>
       </section>
       <section class="featured-work">
-        <div class="row featured-work-label">
-          <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 featured-work-label">
             <h3>Featured Work</h3>
           </div>
         </div>
         <div class="row projects">
           <div class="col-md-4">
-            <img src="img/project1.svg" alt="Project 1" class="img-responsive project1" data-toggle="modal" data-target="#project1">
-            <h3>Project 1</h3>
-            <a href="#">Github link</a>
+            <img src="img/project1.svg" alt="Project 1" class="img-responsive project-img" data-toggle="modal" data-target="#project1">
+            <h3 class="font-properties">Project 1</h3>
+            <a href="#" class="project-links">Github link</a>
           </div>
           <div class="col-md-4">
-            <img src="img/project2.svg" alt="Project 2" class="img-responsive" data-toggle="modal" data-target="#project2">
-            <h3>Project 2</h3>
-            <a href="#">Github link</a>
+            <img src="img/project2.svg" alt="Project 2" class="img-responsive project-img" data-toggle="modal" data-target="#project2">
+            <h3 class="font-properties">Project 2</h3>
+            <a href="#" class="project-links">Github link</a>
           </div>
           <div class="col-md-4">
-            <img src="img/project3.svg" alt="Project 3" class="img-responsive" data-toggle="modal" data-target="#project3">
-            <h3>Project 3</h3>
-            <a href="#">Github link</a>
+            <img src="img/project3.svg" alt="Project 3" class="img-responsive project-img" data-toggle="modal" data-target="#project3">
+            <h3 class="font-properties">Project 3</h3>
+            <a href="#" class="project-links">Github link</a>
           </div>
         </div>
       </section>
       <br>
-      <footer class="footer"><p>by Deinyefa Eporwei, 2017</p></footer>
+      <footer class="row footer">
+        <div class="col-md-12">
+          <p>by Deinyefa Eporwei, 2017</p>
+        </div>
+      </footer>
     </div>
 
     <!-- Modal -->
@@ -65,11 +70,11 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel1">Project Name</h4>
+            <h4 class="modal-title font-properties" id="myModalLabel1">Project Name</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/project1.svg" alt="Project 1">
-            <p>The project summary goes here</p>
+            <img class="img-responsive project-img" src="img/project1.svg" alt="Project 1">
+            <p class="project-summary">The project summary goes here</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -82,11 +87,11 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel2">Project Name</h4>
+            <h4 class="modal-title font-properties" id="myModalLabel2">Project Name</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/project2.svg" alt="Project 2">
-            <p>The project summary goes here</p>
+            <img class="img-responsive project-img" src="img/project2.svg" alt="Project 2">
+            <p class="project-summary">The project summary goes here</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -99,11 +104,11 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel3">Project Name</h4>
+            <h4 class="modal-title font-properties" id="myModalLabel3">Project Name</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/project3.svg" alt="Project 3">
-            <p>The project summary goes here</p>
+            <img class="img-responsive project-img" src="img/project3.svg" alt="Project 3">
+            <p class="project-summary">The project summary goes here</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

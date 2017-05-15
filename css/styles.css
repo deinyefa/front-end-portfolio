@@ -2,18 +2,18 @@
   text-align: right;
 }
 
-.title h1, .title h4, .projects h3, .modal-content h4 {
+.font-properties {
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   color: #4C4C4C;
 }
 
-.logo img {
+.logo-image {
   width: 15%;
   padding-left: inherit;
 }
 
-.featured-work-label h3 {
+.featured-work-label {
   color: #999;
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
@@ -23,13 +23,13 @@
   text-align: center;
 }
 
-.projects a {
+.project-links {
   text-decoration: none;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: 'Lato', sans-serif;
 }
 
-.projects img {
+.project-img {
   display: block;
   margin: auto;
   width: 70%;
@@ -38,16 +38,30 @@
 .footer {
   text-align: center;
   color: #999;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
-.modal-content p {
-  font-family: 'Lato', sans-serif;
+.project-summary {
+  font-family: "Lato", sans-serif;
   color: #333;
 }
 
-.modal-content img {
-  display: block;
-  margin: auto;
-  width: 100%;
+@media screen and (max-width: 991px) {
+  .logo-image {
+    display: block;
+    margin: auto;
+  }
+
+  .sm-screen-align {
+    text-align: center;
+  }
+
+  .featured-work-label {
+    text-align: center;
+    font-size: 0.75em;
+  }
+
+  .project-img {
+    width: 50%;
+  }
 }
