@@ -1,0 +1,46 @@
+/** {
+  border: 1px solid #B8FDFF;
+}*/
+
+.title {
+  text-align: right;
+}
+
+.title h1, .title h4, .projects h3, .modal-content h4 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: #4C4C4C;
+}
+
+.featured-work-label h3 {
+  color: #999999;
+  text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
+}
+
+.projects, .modal-content {
+  text-align: center;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #4C4C4C;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  color: #999999;
+  font-family: 'Poiret One', cursive;
+}
+
+.modal-content p {
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+}
+
+.modal-content img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
