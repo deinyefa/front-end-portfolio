@@ -14,7 +14,7 @@
 }
 
 .featured-work-label h3 {
-  color: #999999;
+  color: #999;
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
 }
@@ -37,13 +37,13 @@
 
 .footer {
   text-align: center;
-  color: #999999;
+  color: #999;
   font-family: 'Poiret One', cursive;
 }
 
 .modal-content p {
   font-family: 'Lato', sans-serif;
-  color: #333333;
+  color: #333;
 }
 
 .modal-content img {
